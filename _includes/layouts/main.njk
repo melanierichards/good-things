@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Good Things</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body {% if slug %}class="body--{{ slug }}"{% endif %}>
+  <main class="main">
+    {{ content | safe }}
+  </main>
+</body>
