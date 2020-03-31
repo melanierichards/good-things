@@ -13,9 +13,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "gulp-clean-css": "^4.3.0"
   },
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
     "lodash.shuffle": "^4.2.0",
     "minimist": "^1.2.5"
   }

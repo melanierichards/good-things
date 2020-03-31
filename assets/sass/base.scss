@@ -1,0 +1,75 @@
+/*
+ *  BASE STYLES
+ *  =============================================
+ */
+
+html {
+  font-size: 110%;
+  line-height: 1.3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 72em;
+}
+
+p {
+  margin: 0;
+}
+
+@media (min-width: $bp-m) {
+  body {
+    padding: 4rem;
+  }
+}
+
+/*
+ *  SITE HEADER
+ *  ---------------------------------------------
+ */
+
+.site-header__title {
+  margin: 0;
+}
+
+@media (min-width: $bp-m) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/*
+ *  GOOD THINGS LIST
+ *  ---------------------------------------------
+ */
+
+.things-list {
+  margin: 2em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.25em;
+}
+
+.things-list__item {
+  display: inline;
+}
+
+@media (min-width: $bp-s) {
+  .things-list {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: $bp-m) {
+  .things-list {
+    margin: 4rem 0;
+    font-size: 2em;
+  }
+}

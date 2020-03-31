@@ -6,20 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width" />
   <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
 <body {% if slug %}class="body--{{ slug }}"{% endif %}>
 
-  <header role="banner">
-    <h1>Good Things</h1>
-    <p>A personal compilation of good sensory things in life.</p>
+  <header class="site-header" role="banner">
+    <h1 class="site-header__title">Good Things</h1>
+    <p class="site-header__subtitle">A personal compilation of good sensory things in life.</p>
   </header>
 
   <main role="main">
     {{ content | safe }}
   </main>
 
-  <footer role="contentinfo">
+  <footer class="site-footer" role="contentinfo">
     <p>Compiled by <a href="http://melanie-richards.com">Melanie Richards</a> — <a href="https://github.com/melanierichards/good-things">Explore the code</a></p>
   </footer>
 
