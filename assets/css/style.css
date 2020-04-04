@@ -1,1 +1,91 @@
-html{font-size:110%;line-height:1.3}*{box-sizing:border-box}body{margin:0 auto;padding:2em;max-width:72em}p{margin:0}@media (min-width:48em){body{padding:4rem}}.site-header__title{margin:0}@media (min-width:48em){.site-header{display:flex;justify-content:space-between;align-items:center}}.things-list{margin:2em 0;padding:0;list-style:none;font-size:1.25em}.things-list__item{display:inline}@media (min-width:32em){.things-list{font-size:1.5em}}@media (min-width:48em){.things-list{margin:4rem 0;font-size:2em}}
+/*
+ *  VARIABLES
+ *  =============================================
+ */
+/*
+ *  BREAKPOINTS
+ *  ---------------------------------------------
+ */
+/*
+ *  FONT DECLARATIONS
+ *  =============================================
+ */
+@font-face {
+  font-family: "Young Serif Regular";
+  src: url("../fonts/YoungSerif-Regular.woff2") format("woff2"), url("../fonts/YoungSerif-Regular.woff") format("woff"), url("../fonts/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Black.woff2") format("woff2"), url("../fonts/WorkSans-Black.woff") format("woff"), url("../fonts/WorkSans-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+/*
+ *  BASE STYLES
+ *  =============================================
+ */
+html {
+  font: 125%/1.4 "Young Serif Regular", "Georgia", serif; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 68em; }
+
+p {
+  margin: 0;
+  font: 600 1em/1 "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+@media (min-width: 54em) {
+  body {
+    padding: 4rem; } }
+
+/*
+ *  SITE HEADER
+ *  ---------------------------------------------
+ */
+.site-header__title {
+  margin: 0;
+  font: 800 2.5em/1 "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+@media (min-width: 54em) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; } }
+
+/*
+ *  GOOD THINGS LIST
+ *  ---------------------------------------------
+ */
+.things-list {
+  margin: 2em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.125em; }
+
+.things-list__item {
+  display: inline; }
+
+@media (min-width: 32em) {
+  .things-list {
+    font-size: 1.5em; } }
+
+@media (min-width: 54em) {
+  .things-list {
+    margin: 4rem 0;
+    font-size: 1.875em; } }

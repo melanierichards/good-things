@@ -1,0 +1,34 @@
+/*
+ *  FONT DECLARATIONS
+ *  =============================================
+ */
+
+ @font-face {
+  font-family: "Young Serif Regular";
+  src: url("../fonts/YoungSerif-Regular.woff2") format("woff2"),
+       url("../fonts/YoungSerif-Regular.woff") format("woff"),
+       url("../fonts/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Black.woff2") format("woff2"),
+       url("../fonts/WorkSans-Black.woff") format("woff"),
+       url("../fonts/WorkSans-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2",
+       url("../fonts/WorkSans-Bold.woff") format("woff"),
+       url("../fonts/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
