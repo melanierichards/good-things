@@ -10,3 +10,24 @@
 
 $bp-s: 32em;
 $bp-m: 54em;
+
+/*
+ *  COLORS: LIGHT THEME
+ *  ---------------------------------------------
+ */
+
+:root { 
+  --color-background: hsl(33.1, 52.7%, 93%);
+  --color-text: hsl(142.8, 78.4%, 14.5%);
+  --color-subtle-text: hsla(142.8, 78.4%, 14.5%, .8);
+  --color-link-underline: hsla(142.8, 78.4%, 14.5%, .5);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { 
+    --color-background: hsl(142.7, 67.3%, 10.8%);
+    --color-text: hsl(32.5, 19%, 75.3%);
+    --color-subtle-text: hsla(32.5, 19%, 75.3%, .8);
+    --color-link-underline: hsla(32.5, 19%, 75.3%, .5);
+  }
+}  

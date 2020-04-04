@@ -5,6 +5,8 @@
 
 html {
   font: 125%/1.4 "Young Serif Regular", "Georgia", serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 * {
@@ -20,6 +22,14 @@ body {
 p {
   margin: 0;
   font: 600 1em/1 "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: var(--color-subtle-text);
+}
+
+a:link, a:visited {
+  text-decoration-color: var(--color-link-underline);
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 0.15em;
+  color: inherit;
 }
 
 @media (min-width: $bp-m) {
