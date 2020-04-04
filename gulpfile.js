@@ -13,7 +13,7 @@ gulp.task('sass', function () {
 });
  
 gulp.task('sass:watch', function () {
-  gulp.watch('./assets/sass/**/*.scss', ['sass']);
+  gulp.watch('./assets/sass/**/*.scss', gulp.series('sass'));
 });
 
 // For whatever reason, output style in the Sass task isn't working; adding this task
