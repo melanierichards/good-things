@@ -4,6 +4,6 @@ layout: layouts/main.njk
 
 <ul role="list" class="things-list">
   {% for item in things | shuffle %}
-    <li class="things-list__item">{{ item }}.</li>
+    <li role="listitem" class="things-list__item">{{ item }}.</li>
   {% endfor %}
 </ul>
