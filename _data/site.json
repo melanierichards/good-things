@@ -1,3 +1,7 @@
 {
-  "baseUrl": "https://goodthings.melanie-richards.com"
+  "authorName": "Melanie Richards",
+  "authorUrl": "http://melanie-richards.com",
+  "baseUrl": "https://goodthings.melanie-richards.com",
+  "repoUrl": "https://github.com/melanierichards/good-things",
+  "twitterUser": "@soMelanieSaid"
 }
