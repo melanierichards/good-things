@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Good Things</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="A personal compilation of good sensory things in life.">
-  <meta name="robots" content="index, follow">
+  <head>
+    <title>Good Things</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A personal compilation of good sensory things in life.">
+    <meta name="robots" content="index, follow">
 
-  <link rel="icon" href="/assets/images/favicon-16.png" sizes="16x16" type="image/png">
-  <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="/assets/images/favicon-48.png" sizes="48x48" type="image/png">
-  <link rel="icon" href="/assets/images/favicon-62.png" sizes="62x62" type="image/png">
-  <link rel="icon" href="/assets/images/favicon-192.png" sizes="192x192" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-62.png" sizes="62x62" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-192.png" sizes="192x192" type="image/png">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="{{ site.twitterUser }}">
-  <meta name="twitter:title" content="Good Things">
-  <meta name="twitter:description" content="A personal compilation of good sensory things in life.">
-  <meta name="twitter:image:src" content="{{ site.baseUrl }}/assets/images/social-media-card.png">
-    
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="{{ site.twitterUser }}">
+    <meta name="twitter:title" content="Good Things">
+    <meta name="twitter:description" content="A personal compilation of good sensory things in life.">
+    <meta name="twitter:image:src" content="{{ site.baseUrl }}/assets/images/social-media-card.png">
+      
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
 
-<body {% if slug %}class="body--{{ slug }}"{% endif %}>
+  <body {% if slug %}class="body--{{ slug }}"{% endif %}>
 
-  <header class="site-header" role="banner">
-    <h1 class="site-header__title"><span class="site-header__good">Good</span> Things</h1>
-    <p class="site-header__subtitle">A personal compilation of good sensory things in life.</p>
-  </header>
+    <header class="site-header" role="banner">
+      <h1 class="site-header__title"><span class="site-header__good">Good</span> Things</h1>
+      <p class="site-header__subtitle">A personal compilation of good sensory things in life.</p>
+    </header>
 
-  <main role="main">
-    {{ content | safe }}
-  </main>
+    <main role="main">
+      {{ content | safe }}
+    </main>
 
-  <footer class="site-footer" role="contentinfo">
-    <p>Compiled by <a href="{{ site.authorUrl }}">{{ site.authorName }}</a> — <a href="{{ site.repoUrl }}">Explore the code</a></p>
-  </footer>
+    <footer class="site-footer" role="contentinfo">
+      <p>Compiled by <a href="{{ site.authorUrl }}">{{ site.authorName }}</a> — <a href="{{ site.repoUrl }}">Explore the code</a></p>
+    </footer>
 
-</body>
+  </body>
+</html>
