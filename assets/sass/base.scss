@@ -70,6 +70,16 @@ a:focus {
   }
 }
 
+@media (forced-colors: active) {
+  a:hover {
+    text-decoration-style: dashed;
+  }
+
+  a:active {
+    text-decoration-style: dotted;
+  }
+}
+
 /*
  *  SITE HEADER
  *  ---------------------------------------------
