@@ -20,6 +20,6 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "lodash.shuffle": "^4.2.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
