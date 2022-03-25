@@ -16,10 +16,7 @@ Built with [Eleventy](https://www.11ty.dev/docs/).
 
 | Command                    | Purpose                      |
 | -------------------------- | ---------------------------- |
-| npx @11ty/eleventy         | Build project                |
-| npx @11ty/eleventy --serve | Serve project                |
-| gulp sass:watch            | Watch changes to SASS files  |
-| gulp minify-css            | Compress the output CSS file |
+| npm run start              | Serve project + watch Sass   |
 
 ## Adjustments for hosting your own version
 

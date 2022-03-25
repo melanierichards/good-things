@@ -2,6 +2,12 @@
   "name": "good-things",
   "version": "1.0.0",
   "description": "A compilation of good sensory things in life.",
+  "scripts": {
+    "sass": "npx sass --style=compressed assets/sass/style.scss assets/css/style.css",
+    "watch:sass": "npm run sass -- --watch",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "start": "npm-run-all sass --parallel watch:*"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:melanierichards/good-things.git"
@@ -12,14 +18,11 @@
     "url": "https://melanie-richards.com/"
   },
   "license": "MIT",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "gulp-clean-css": "^4.3.0"
-  },
   "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2",
+    "@11ty/eleventy": "^0.12.1",
     "lodash.shuffle": "^4.2.0",
-    "minimist": "^1.2.6"
+    "minimist": "^1.2.6",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9"
   }
 }
